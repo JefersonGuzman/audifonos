@@ -195,6 +195,9 @@ nav.main-menu {
 
 .main-menu ul > li.active a{ background-color: #008484; color: #ffffff; }
 
+.main-menu ul > li:hover >a{ background-color: #008484; color: #ffffff; }
+
+
 .carousel-indicators .active {
     background-color: #008484;
 }
@@ -239,32 +242,66 @@ nav.main-menu {
 	max-width: 100%;
 }
 
-.gallery_blog img {
-	width: 100%;
-	min-height: 295px;
-}
+
+/* DISEÑO DE TIPOS DE AUDIFONOS  */
 
 .gallery_blog {
-    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 2px dotted black ;
+    border-radius: 20px;
+    height:200px !important;
 }
 
-.gallery_blog .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(250,62,25,.9);
-}
 
 .gallery_blog h2 {
-    color: #fff;
-    line-height: 287px;
+    color: rgb(10, 9, 9);
     width: 100%;
+    padding:15%;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
 }
+
+.tipos_produc>div{
+    padding: 20px;
+
+}
+
+.tipos_produc h1{
+    font-size:20px !important;
+    color:red;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#close a{
+    background-color: red;
+    padding:10px;
+    border-radius: 10px;
+    border: 2px  rgb(255, 255, 255) ;
+    text-align: center;
+}
+
+.btn_product>a{
+    background-color: rgb(190, 190, 190);
+    padding:10px;
+    margin-top:20px !important;
+    border-radius: 10px;
+    border: 2px  rgb(255, 255, 255) ;
+}
+
+.btn_product>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 156, 156);
+
+}
+
+#close a:hover{
+    color:rgb(255, 255, 255);
+}
+/*************************************/
 
 
 .banner_section{

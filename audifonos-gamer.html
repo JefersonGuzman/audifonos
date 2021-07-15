@@ -30,33 +30,6 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 
-
-<!-- Scrip -->
-
-<script languague="javascript">
-
-   function mostrarGamer() {
-       div = document.getElementById('audgamer');
-       div.style.display = '';
-   }
-
-   function cerrarGamer() {
-       div = document.getElementById('audgamer');
-       div.style.display = 'none';
-   }
-
-   function mostrarInalambricos() {
-       div = document.getElementById('audInalambricos');
-       div.style.display = '';
-   }
-
-   function cerrarInalambricos() {
-       div = document.getElementById('audInalambricos');
-       div.style.display = 'none';
-   }
-</script>
-
-
 </head>
 <body>
 	<header>
@@ -158,10 +131,9 @@
 	</div>
 	<!-- product end-->
    <hr/>
-   
 	<!-- Gallery start-->
 	<div id="gallery" class="layout_padding2 gallery_section">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="gallery_main">
@@ -170,117 +142,25 @@
 				</div>
 				<div class="col-sm-12 gallery_maain">
 					<div class="row">
-						<div class="col-sm-4">
-                     <a href="javascript:mostrarGamer();">
-                        <div class="gallery_blog">
-                           <h2>Audifonos Gamer</h2>
-                        </div>
-                     </a>
+						<div class="col-sm-4 padding_0">
+							<div class="gallery_blog">
+								<img class="img-responive" src="images/audifonos_gamer/audifonos_gamer_banner.png">
+							</div>
 						</div>
-                  <div class="col-sm-4">
-                     <a href="javascript:mostrarInalambricos();">
-                        <div class="gallery_blog">
-                           <h2>Audifonos Inalambricos</h2>
-                        </div>
-                     </a>
+                  <div class="col-sm-4 padding_0">
+                     <div class="gallery_blog">
+                        <img class="img-responive" src="images/audifonos_bluetooth/Audifonos_Bluetooth.png">
+                     </div>
                   </div>
-                  <div class="col-sm-4">
-                     <a href="">
-                        <div class="gallery_blog">
-                           <h2>Audifonos Por Marcas</h2>
-                        </div>
-                     </a>
+                  <div class="col-sm-4 padding_0">
+                     <div class="gallery_blog">
+                        <img class="img-responive" src="images/audifonos_por_marcas/Audifonos_por_marcas.png">
+                     </div>
                   </div>
 					</div>
 				</div>
 			</div>
-
-         <div class="row tipos_produc">
-            <div class="col-md-12">
-               <div id="audgamer" style="display:none;">
-                  <div id="close">
-                     <a href="javascript:cerrarGamer();">Cerrar</a>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-8">
-                        <h1>Audifonos Gamer</h1>
-                        <ol>
-                           <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quibusdam, vel delectus sunt earum, blanditiis impedit fugiat expedita voluptatibus ea tempore, doloribus fuga dolor. Qui consectetur voluptatum ut quisquam facilis?</li>
-                           <br/>
-                           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente dolores, quasi, quidem ipsum quisquam mollitia voluptate quod sit voluptatibus illum harum qui a doloribus placeat aut quaerat. Sapiente, provident.</li>
-                        </ol>
-                        <br/>
-                        <div class="btn_product">
-                           <a class="" href="">Mas informacion</a>
-                        </div>
-                     </div>
-                     <div class="col-md-2">
-                        <img src="images/audifonos_gamer/audifono_gamer.jpg" alt="">
-                     </div>
-                     <hr/>
-                  </div>
-               </div>
-            </div>
-         </div>
-         
-         <div class="row tipos_produc">
-            <div class="col-md-12">
-               <div id="audInalambricos" style="display:none;">
-                  <div id="close">
-                     <a href="javascript:cerrarInalambricos();">Cerrar</a>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-8">
-                        <h1>Audifonos Inalambricos</h1>
-
-                        <ol>
-                           <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quibusdam, vel delectus sunt earum, blanditiis impedit fugiat expedita voluptatibus ea tempore, doloribus fuga dolor. Qui consectetur voluptatum ut quisquam facilis?</li>
-                           <br/>
-                           <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sapiente dolores, quasi, quidem ipsum quisquam mollitia voluptate quod sit voluptatibus illum harum qui a doloribus placeat aut quaerat. Sapiente, provident.</li>
-                        </ol>
-                        <br/>
-                        <div class="btn_product">
-                           <a class="" href="">Mas informacion</a>
-                        </div>
-                     </div>
-                     <div class="col-md-2">
-                        <img src="images/audifonos_inalambricos/audifonos_inalambricos.jpg" alt="">
-                     </div>
-                     <hr/>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-
-         <div class="row tipos_produc">
-            <div class="col-md-12">
-               <div id="audgamer" style="display:none;">
-                  <div id="close">
-                     <a href="javascript:cerrarGamer();">Cerrar</a>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-8">
-                        <h1>Audifonos Por Marcas</h1>
-                        <ol>
-                           <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quibusdam, vel delectus sunt earum, blanditiis impedit fugiat expedita voluptatibus ea tempore, doloribus fuga dolor. Qui consectetur voluptatum ut quisquam facilis?</li>
-                        </ol>
-                        <br/>
-                        <div class="btn_product">
-                           <a class="" href="">Mas informacion</a>
-                        </div>
-                     </div>
-                     <div class="col-md-2">
-                        <img src="images/audifonos_gamer/audifono_gamer.jpg" alt="">
-                     </div>
-                     <hr/>
-                  </div>
-               </div>
-            </div>
-         </div>
-
 		</div>
-
 	</div>
 	<!-- end Gallery-->
 	<!-- contact start-->
